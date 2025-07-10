@@ -1,10 +1,10 @@
-INPUT n
-a = n - 1
-WHILE a > 0
-  IF n % a == 0 
-  THEN 
-    OUTPUT a
-    STOP
-  ELSE a = a - 1
+input n
+set a = n – 1
+WHILE a > 0 DO
+  IF n mod a = 0 THEN
+    output a
+    stop
+  ELSE
+    set a - a – 1
   END IF
 END WHILE
