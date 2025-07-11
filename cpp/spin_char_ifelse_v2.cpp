@@ -12,9 +12,9 @@ int main() {
       c = '|';
     } else if (j == 1) {
       c = '/';
-    } else if (i == 2) {
+    } else if (j == 2) {
       c = '-';
-    } else if (i % 4 == 3) {
+    } else if (j == 3) {
       c = '\\';
     }
     std::cout << c << std::flush;

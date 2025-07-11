@@ -1,0 +1,10 @@
+INPUT a,b,c
+IF a + b <= c THEN
+  OUTPUT "Can't make a triangle"
+ELSE IF a + c <= b THEN
+  OUTPUT "Can't make a triangle"
+ELSE IF ??? THEN
+  OUTPUT "Can make a triangle"
+ELSE
+  ??? // Complete it
+ENDIF
